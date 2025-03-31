@@ -1,5 +1,3 @@
-Here’s the updated **README.md** with your LinkedIn and email added:  
-
 ---
 
 # 📚 **Coder's Life Ledger** 💻📊  
