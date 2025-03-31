@@ -1,0 +1,106 @@
+/* BalanceSheet.css */
+
+.container {
+    padding: 20px;
+    background-color: #f9fafb;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  .transaction-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .transaction-form select,
+  .transaction-form input,
+  .transaction-form button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .transaction-form button {
+    background-color: #4F46E5;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .transaction-form button:hover {
+    background-color: #3b3ca7;
+  }
+  
+  .transactions-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .credit-side, .debit-side {
+    width: 48%;
+  }
+  
+  .txn {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .credit {
+    border-left: 5px solid #34D399;
+  }
+  
+  .debit {
+    border-left: 5px solid #F87171;
+  }
+  
+  /* Pie and Bar Chart Container */
+  .responsive-container {
+    width: 100%;
+    height: 400px; /* Increased chart size */
+    margin-top: 20px;
+  }
+  
+  /* Pie Chart */
+  .recharts-pie {
+    height: 360px !important;
+  }
+  
+  /* Bar Chart */
+  .recharts-bar {
+    height: 360px !important;
+  }
+  
+  .recharts-legend-wrapper {
+    margin-top: 5px !important; /* Reduced padding */
+  }
+  
+  /* Chart Colors */
+  .recharts-bar-rectangle {
+    fill: #4F46E5 !important;
+  }
+  
+  .recharts-bar-rectangle:nth-child(2) {
+    fill: #f87171 !important;
+  }
+  
+  /* CSV Download Button */
+  .download-btn {
+    background-color: #10B981;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .download-btn:hover {
+    background-color: #059669;
+  }
+  
