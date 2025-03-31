@@ -1,4 +1,3 @@
----
 
 # 📚 **Coder's Life Ledger** 💻📊  
 
